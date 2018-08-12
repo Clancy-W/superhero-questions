@@ -1,0 +1,49 @@
+h1 {
+  text-align: center;
+}
+
+.bg-primary {
+  background-color: #5CB85C !important;
+}
+
+.left {
+  margin-left: 15%;
+  float: left;
+  width: 35%;
+}
+
+.right {
+  margin-right: 15%;
+  float: right;
+  width: 35%;
+}
+
+.left > .btn-lg, .right > .btn-lg {
+  width: 34vw;
+  height: 20vw;
+  margin-bottom: 1vw;
+  font-size: 4vw;
+  white-space: normal;
+}
+
+#question {
+  font-size: 3.8vw;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#correct h1, #incorrect h1, #fin h1 {
+  font-size: 6vw;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#fin h4 {
+  font-size: 3vw;
+}
+
+#correct button, #incorrect button {
+  width: 40vw;
+  height: 26vw;
+  font-size: 7vw;
+}
