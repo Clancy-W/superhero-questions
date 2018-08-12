@@ -1,6 +1,2 @@
 # superhero-questions
-Trivia Questions About Superheroes
-## What is this for?
-It was for a project I was doing on an proof-of-concept trivia game.
-## Can I add to it?
-Feel free to
+Trivia Questions About Superheroes. The questions are stored within a CSV file, which is requested by the JavaScript file. It is then served onto the page by JQuery, once the user has clicked an option, it checks its data to see if the option is correct, and responds in whatever way it sees fit. This project is able to be played at https://clancy-w.github.io/superhero-questions/
